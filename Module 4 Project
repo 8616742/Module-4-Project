@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylebus.css">
+    </head>
+<body>
+
+<h1>Instant Design:Home Page</h1>
+<a href= "aboutbus.html">about us</a>
+<p>Learn about us as clothing company.</p>
+<hr>
+
+<h2> Our Shirt Merchandise Desgin</h2>
+<a href= "products1.html">products</a>
+<a href= "Services.html">services</a>
+<p>Our shirt creations and Desgins.</p>
+<hr>
+
+<h2>Phone Number</h2>
+<a href="contactbus.aspx">contact</a>
+<p>Contact us for long-distance shipping.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>About us</h1>
+<a href="products1.html">products</a>
+<p>We as a comapny create different shirt designs for small or large retails compaonies around the world.</p>
+<hr>
+
+<h2>History</h2>
+<p>We started out with 3 people working in a small office builiding in New York.Over the years invetsment teams from small to Large retail compaines pay use to print and desgin out new shirt/hoodies designs for those consumers.</p>
+<hr>
+
+<h2>Location</h2>
+<p>5422 Shilshole Ave NWSeattle, WA 98107.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+details > summary {
+  padding: 4px;
+  width: 200px;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
+</style>
+</head>
+<body>
+
+<h1>Clothing merchanise</h1>
+
+<details>
+  <summary>T-shirts and hoodies</summary>
+  <p>Our clothing merchanise sell everyting to pop-culture,customs,or regular T-shirt/hoodies,jackets,etc.Even with your favoirte brands as well.</p>
+</details>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+details > summary {
+  padding: 4px;
+  width: 200px;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
+</style>
+</head>
+<body>
+
+<h1>Our Shirts/hoodies Custom service Desgin</h1>
+
+<details>
+  <summary>service</summary>
+  <p>Our service will provide you with a unique suggestion for your clothig in any means of desire.</p>
+</details>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+using System;
+namespace PageEvents
+{
+public partial class WebForm1
+: System.Web.UI.Page
+{
+protected void Page_Load
+(object sender, EventArgs e)
+{
+Response.Write
+("Message from Page_Load. <br/>");
+}
+protected void Page_Init
+(object sender, EventArgs e)
+{
+Response.Write
+("Message from Page_Init. <br/>");
+}
+protected void Page_PreRender
+(object sender, EventArgs e)
+{
+Response.Write
+("Message from Page_PreRender. <br/>");
+}
+protected void Page_PreInit
+(object sender, EventArgs e)
+{
+Response.Write
+("Message from Page_PreInit. <br/>");
+}
+}
+}
+
+body {
+  background-color: #80ffff;
+}
